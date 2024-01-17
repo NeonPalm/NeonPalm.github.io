@@ -80,6 +80,10 @@
     animation: slide 600s linear infinite;
 }
 
+audio {
+    z-index: 1;
+}
+
 @keyframes slide{
     0% {
         transform: translate3d(0, 0, 0);
